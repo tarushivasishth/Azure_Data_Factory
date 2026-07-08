@@ -1,0 +1,18 @@
+{
+	"name": "triggerDataFlow",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2026-07-04T22:00:00",
+				"endTime": "2026-07-05T00:39:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

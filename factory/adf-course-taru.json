@@ -1,0 +1,15 @@
+{
+	"name": "adf-course-taru",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5cb8fe9e-c136-464a-bd0a-a3e6492995ab",
+		"tenantId": "6bead0f4-0353-44a5-b28d-9abd46ea5340"
+	}
+}

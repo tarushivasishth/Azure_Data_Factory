@@ -1,0 +1,17 @@
+{
+	"name": "triggerStorageEvents",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/csvfiles/Fact_Sales_1.csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/88621d3c-6a06-4e90-9e74-c5232f12dccc/resourceGroups/Azure_Fundamentals/providers/Microsoft.Storage/storageAccounts/storagedatafactorytaru",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
